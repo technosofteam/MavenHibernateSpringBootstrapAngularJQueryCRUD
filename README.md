@@ -45,6 +45,6 @@ CREATE TABLE IF NOT EXISTS `employe` (
 mvn clean install > this allows your to clean install and launch your test with maven
 mvn test > launch your tests
 mvn clean install -DskipTests > this allows your to clean install and skip tests
-mvn jetty:run > run jetty server plugin you can after visualize your app on localhost:8080 not the same as tomcat where you must specify the application name in the url
+mvn jetty:run > run jetty server plugin you can visualize your app on localhost:8080 not the same as tomcat where you must specify the application name in the url
 for debug you can use -X
 ```
